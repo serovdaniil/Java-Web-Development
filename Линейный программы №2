@@ -1,0 +1,15 @@
+package com.company;
+
+import static java.lang.Math.sqrt;
+
+public class Main {
+
+    public static void main(String[] args) {
+	int a=7;
+	int b=9;
+	int c=4;
+	int d=b*b+4*a*c;
+	double z=((b+ sqrt(d))/(2*a))-a*a*a*c+(1/b*b);
+		System.out.println(z);
+    }
+}
