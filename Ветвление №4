@@ -1,0 +1,15 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	double a=50.4;
+	double b=200.8;
+	double x=50.5;
+	double y=200.8;
+	double z=70.98;
+	if ((a==x) && (b==y))
+        System.out.println("Кирпич пройдет через отверстие");
+	else System.out.println("Кирпич не пройдет через отверстие");
+    }
+}
