@@ -1,0 +1,20 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	double a=17235;
+	double z;
+	double h;
+    double m;
+    double s;
+    z=a/60/60;
+    h= Math.floor(z);
+    a=a-h*60*60;
+    z=a/60;
+    m=Math.floor(z);
+    a=a-m*60;
+    s=a;
+        System.out.println(h+"ч"+m+"мин"+s+"с");
+    }
+}
