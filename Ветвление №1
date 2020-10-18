@@ -1,0 +1,15 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	int a=55;
+	int b=35;
+	if ((a+b)<180)
+    {System.out.println("Треугольник существует");
+    if ((a+b)==90)
+        System.out.println("Это прямоугольный треугольник");
+                else System.out.println("Этот треугольник не прямоугольный");
+    }
+	else System.out.println("Треугольник не существует");
+    }
